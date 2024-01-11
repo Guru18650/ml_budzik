@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ml_budzik.AlarmPage"
+             Title="Alarm">
+    <VerticalStackLayout Margin="15">
+        <Label 
+            Text="ALARM" FontSize="50"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Text="TEST" x:Name="ll" FontSize="40" HorizontalOptions="Center"/>
+        <Button Text="Wyłącz" Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
